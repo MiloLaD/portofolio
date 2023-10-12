@@ -15,3 +15,7 @@
  .dos{
   background: #000;
  }
+
+ .hover-link:hover {
+  color: #999493
+}

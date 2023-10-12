@@ -1,19 +1,21 @@
 import React, {useState} from "react";
 import  logo from "../assets/logo.png"
 import {FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
-import {H1OutlineMail} from 'react-icons/hi'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {Bs0CircleFill, BsFillPersonLinesFill} from 'react-icons/bs'
 import { Link } from "react-scroll";
 
 const Header = () => {
 const[nav, setNav] = useState(false)
+
 const handleClick = () => setNav(!nav)
+
+
     return (
         
         <div className=" fixed w-full h-[80px] flex justify-between bg-[#0a192f] px-4 items-center text-gray-300">
         <div>
         <Link to="home" smooth={true} duration={500}  >
-       <img alt="Logo image" className="w-[80px] hover:cursor-pointer" src={logo} />
+       <img alt="Logo " className="w-[80px] hover:cursor-pointer" src={logo} />
     </Link>
          
          
@@ -23,12 +25,12 @@ const handleClick = () => setNav(!nav)
         
           <ul className="hidden md:flex ">
             <li>
-    <Link to="about" smooth={true} duration={500}  >
+    <Link to="about" smooth={true} duration={500} className="hover-link" >
       À propos
     </Link>
             </li>
             <li>
-    <Link to="skills" smooth={true} duration={500}  >
+    <Link to="skills" smooth={true} duration={500} className="hover-link" >
             Skills
     </Link>
               
@@ -39,7 +41,7 @@ const handleClick = () => setNav(!nav)
     </Link>
     </li> */}
             <li>
-      <Link to="contact" smooth={true} duration={500}  >
+      <Link to="contact" smooth={true} duration={500} className="hover-link" >
             Contact
     </Link>
     </li>
@@ -75,25 +77,28 @@ const handleClick = () => setNav(!nav)
             <ul>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-blue-600" >
                     <a className="flex justify-between items-center w-full text-gray-300 " 
-                      href="/">
+                      href="https://www.linkedin.com/in/emile-fourtan%C3%A9-124257233/" target="_blank" rel="noreferrer" >
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-[#3333]" >
                     <a className="flex justify-between items-center w-full text-gray-300 " 
-                      href="/">
+                      href="https://github.com/MiloLaD" target="_blank" rel="noreferrer" >
                         Github <FaGithub size={30}/>
                     </a>
-                </li>
-                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-blue-600" >
+                </li>{/*
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-blue-600"
+                
+                >
                     <a className="flex justify-between items-center w-full text-gray-300 " 
-                      href="/">
-                        Email <BsFillPersonLinesFill size={30}/>
+                     href="/" >
+                        Email <Bs0CircleFill size={30}/>
                     </a>
-                </li>
-                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-[#565f69]" >
+  </li>*/}
+                <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-[#565f69]"
+                  >
                     <a className="flex justify-between items-center w-full text-gray-300 " 
-                      href="/">
+                      href="https://github.com/MiloLaD/CV/blob/main/CV-stage.png" target="_blank" rel="noreferrer" >
                         CV <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>
