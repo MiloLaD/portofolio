@@ -4,6 +4,7 @@ import HTML from '../assets/html.png';
 import JS from '../assets/javascript.png'
 import Tailwind from '../assets/tailwind.png'
 import Reacting from '../assets/react.png'
+import NextJs from '../assets/nextJs.png'
 
 const Skills = () => {
   return (
@@ -36,6 +37,11 @@ const Skills = () => {
                 <img className='w-20 mx-auto' src={Tailwind} alt='HTML icon' />
                 <p className='ny-4'>TAILWIND</p>
             </div>
+            <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                <img className='w-20 mx-auto' src={NextJs} alt='HTML icon' />
+                <p className='ny-4'>NEXT JS</p>
+            </div>
+            
         </div>
     
     

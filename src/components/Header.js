@@ -98,7 +98,7 @@ const handleClick = () => setNav(!nav)
                 <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duratio-300 bg-[#565f69]"
                   >
                     <a className="flex justify-between items-center w-full text-gray-300 " 
-                      href="https://github.com/MiloLaD/CV/blob/main/CV-stage.png" target="_blank" rel="noreferrer" >
+                      href="/CV_alternance2025_Emile.pdf" target="_blank" rel="noreferrer" >
                         CV <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

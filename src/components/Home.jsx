@@ -11,8 +11,8 @@ const Home = () => {
             <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6] '>Emile Fourtane</h1>
             <h2 className='text-4xl sm:test-7xl font-bold text-[#8892b0]'>Je suis un développeur Front-End</h2>
             <p className='text-[#8892b0] py-4 max-w-[700px] '>
-            Actuellement en année de césure, je suis passionné par le développement web. Mon objectif est de poursuivre mon cursus en apprentissage.
-             Je recherche un stage en développement web à partir de fin janvier 2024.
+            Actuellement fin de M1 à JUNIA ISEN en specialité Ingénieur d'affaires/développement logiciel, je suis passionné par le développement web. Mon objectif est de poursuivre mon cursus en apprentissage.
+             Je recherche donc acttivement une alternance de 1 an à compter de Septembre 2025.
               N'hésitez pas à me contacter pour en savoir plus!
             </p>
             <div>

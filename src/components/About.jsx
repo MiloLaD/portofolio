@@ -15,7 +15,7 @@ const About = () => {
                 
             <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-left text-4xl font-bold'>
-                        <p>Salut, je m'appelle Emile Fourtané, j'ai 21 ans, et je suis un passionné du développement web.
+                        <p>Salut, je m'appelle Emile Fourtané, j'ai 23 ans, et je suis un passionné du développement web.
                            
                             Franco-suédois et ayant eu une éxperience à l'étranger importante, je mets cette diversité culturelle au cœur de mon travail </p>
                         </div>    
